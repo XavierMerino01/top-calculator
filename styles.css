@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator-body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 800px;
+    background-color:grey;
+    text-align:end;
+}
+
+.screen {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    margin: 100px 0px;
+    color: white;
+    font-size:30px;
+}
+
+.container{
+    display:flex;
+    width: 70%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.numbers{
+    display:flex;
+    flex-wrap:wrap;
+    width: 60%;
+    justify-content:center;
+}
+
+.symbols {
+    display: flex;
+    width: 30%;
+    justify-content: start;
+    gap: 20px;
+    align-items:center;
+    flex-direction: column;
+}
+
+.num {
+    text-align: center;
+    width: 33%;
+    height: 70px;
+}
+
+.sym {
+    text-align: center;
+    width: 40%;
+    height: 10%;
+}
