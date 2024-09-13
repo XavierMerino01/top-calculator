@@ -73,6 +73,10 @@ function operate(operator, numA, numB) {
 			return (multiply([numA, numB]));
 			break;
 		case '/':
+			if (numB === 0) {
+				return "TusMuerto";
+				break;
+			}
 			return (divide(numA, numB));
 			break;
 
